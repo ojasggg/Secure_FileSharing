@@ -1,0 +1,19 @@
+{
+  "name": "secured_filesharing",
+  "version": "1.0.0",
+  "description": "File Sharing Backend Focus Small Application for file transfer between multiple devices easily if possible with in my Local Network.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ojash Gurung",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
